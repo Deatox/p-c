@@ -1,6 +1,6 @@
 var save = {
     protons = 0;
-}
+};
 
 function Proton(val) {
     save.protons = save.protons + val;
