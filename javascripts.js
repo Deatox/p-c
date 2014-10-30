@@ -9,3 +9,4 @@ function Proton(val) {
     else {
         document.getElementById("protoncount").innerHTML = protons + " Protons";
 }
+}
