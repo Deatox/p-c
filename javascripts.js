@@ -1,7 +1,6 @@
 var protons = 0;
 var proton_add = 0;
 
-
 function Proton(val) {
     protons = protons + val;
     if (protons == 1) {
