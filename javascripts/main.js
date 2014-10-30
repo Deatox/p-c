@@ -1,6 +1,5 @@
-var save = {
-  protons = 0,
-  proton_add = 0;}
+var protons = 0;
+var proton_add = 0;
 
 
 function MProton(val) {
@@ -9,5 +8,5 @@ function MProton(val) {
         document.getElementById("protoncount").innerHTML = "1 Proton";
     }
     else {
-        document.getElementById("protoncount").innerHTML = carrots + " Protons";
+        document.getElementById("protoncount").innerHTML = protons + " Protons";
 }
