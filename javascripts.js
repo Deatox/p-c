@@ -1,6 +1,9 @@
 var save = {
     protons: 0
 }
+localStorage.setItem("save",JSON.stringify(save));
+var savegame = JSON.parse(localStorage.getItem("save"));
+
 
 function Proton(val) {
     save.protons = save.protons + val;
