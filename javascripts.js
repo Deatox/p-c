@@ -10,8 +10,6 @@ function load(){
 function reset(){
     localStorage.removeItem("save")
 }
-save()
-load()
 function Proton(val) {
     save.protons = save.protons + val;
     if (save.protons == 1) {
