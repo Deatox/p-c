@@ -1,14 +1,5 @@
-function save() {
-    var save = {
-    protons: 0
-    }
-    localStorage.setItem("save",JSON.stringify(save));
-}
-function load(){
-    var savegame = JSON.parse(localStorage.getItem("save"));
-}
-function reset(){
-    localStorage.removeItem("save")
+var save = {
+    protons: 0;
 }
 function Proton(val) {
     save.protons = save.protons + val;
