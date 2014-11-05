@@ -10,8 +10,5 @@ button {
     border:none;
     background-color:#e8e8e8;
     border-radius:24px;
-}
-
-* {
-  display: inline;
+    display: inline;
 }
