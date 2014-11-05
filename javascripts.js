@@ -8,6 +8,6 @@ function Proton(val) {
         document.getElementById("protoncount").innerHTML = "1 Proton";
     }
     else {
-        document.getElementById("protoncount").innerHTML = save.protons + " save.protons";
+        document.getElementById("protoncount").innerHTML = save.protons + " protons";
 }
 }
