@@ -12,3 +12,7 @@ button {
     border-radius:24px;
     display: inline;
 }
+
+div {
+  display: inline;
+}
