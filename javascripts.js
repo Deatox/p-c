@@ -1,5 +1,5 @@
 var save = {
-    protons: 0;
+    protons:0
 }
 
 function Proton(val) {
