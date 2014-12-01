@@ -1,35 +1,34 @@
-var save = {
-    protons:0
-    neutrons:0
-    electrons:0
-}
+var protons = 0;
+var neutrons = 0;
+var electrons = 0;
 
-function Proton(val) {
-    save.protons = save.protons + val;
-    if (save.protons == 1) {
+
+function FProton(val) {
+    protons = protons + val;
+    if (protons == 1) {
         document.getElementById("protoncount").innerHTML = "1 Proton";
     }
     else {
-        document.getElementById("protoncount").innerHTML = save.protons + " protons";
+        document.getElementById("protoncount").innerHTML = protons + " Protons";
 }
 }
 
-function Neutron(val) {
-    save.protons = save.neutrons + val;
-    if (save.neutrons == 1) {
-        document.getElementById("neutroncount").innerHTML = "1 neutron";
+function FNeutron(val) {
+    neutrons = neutrons + val;
+    if (neutrons == 1) {
+        document.getElementById("neutroncount").innerHTML = "1 Neutron";
     }
     else {
-        document.getElementById("neutroncount").innerHTML = save.neutron + " neutron";
+        document.getElementById("neutroncount").innerHTML = neutrons + " Neutrons";
 }
 }
 
-function Electron(val) {
-    save.electrons = save.electrons + val;
-    if (save.electrons == 1) {
+function FElectron(val) {
+    electrons = electrons + val;
+    if (electrons == 1) {
         document.getElementById("electroncount").innerHTML = "1 Electron";
     }
     else {
-        document.getElementById("electroncount").innerHTML = save.electrons + " Electrons";
+        document.getElementById("electroncount").innerHTML = electrons + " Electrons";
 }
 }
