@@ -1,6 +1,7 @@
 var protons = 0;
 var neutrons = 0;
 var electrons = 0;
+var HAtoms = 0;
 
 
 function FProton(val) {
@@ -30,5 +31,15 @@ function FElectron(val) {
     }
     else {
         document.getElementById("electroncount").innerHTML = electrons + " Electrons";
+}
+}
+
+function BuyH {
+    HAtoms = HAtoms + 1;
+    if (HAtoms == 1) {
+        document.getElementById("HCount").innerHTML = "1 Hydrogen Atom";
+    }
+    else {
+        document.getElementById("HCount").innerHTML = electrons + " Hydrogen Atoms";
 }
 }
