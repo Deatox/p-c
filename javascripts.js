@@ -40,6 +40,6 @@ function buyH(val) {
         document.getElementById("HCount").innerHTML = "1 Hydrogen Atom";
     }
     else {
-        document.getElementById("HCount").innerHTML = electrons + " Hydrogen Atoms";
+        document.getElementById("HCount").innerHTML = HAtoms + " Hydrogen Atoms";
 }
 }
