@@ -34,7 +34,7 @@ function FElectron(val) {
 }
 }
 
-function BuyH(val) {
+function buyH(val) {
     HAtoms = HAtoms + val;
     if (HAtoms == 1) {
         document.getElementById("HCount").innerHTML = "1 Hydrogen Atom";
